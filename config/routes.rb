@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   
   root to: 'tasks#index'
-  get 'toppages/index', to: "tasks#index"
 
   get "signup", to: "users#new"
 
